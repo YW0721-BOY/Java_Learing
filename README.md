@@ -1,2 +1,2 @@
 # Java_Learing
-## code
+# JAVA学习笔记
