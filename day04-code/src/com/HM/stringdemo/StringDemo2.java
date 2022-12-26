@@ -10,6 +10,6 @@ public class StringDemo2 {
 
         boolean result=s1.equals(s2);
 
-        System.out.println();
+        System.out.println(result);
     }
 }

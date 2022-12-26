@@ -1,13 +1,19 @@
-package com.HM.streamTest;
+package com.HM.a01myFunction;
 
-public class Actor {
+public class Student {
     private String name;
     private int age;
 
-    public Actor() {
+    public Student() {
     }
 
-    public Actor(String name, int age) {
+    public Student(String str){
+        String[] arr = str.split("，");
+        this.name = arr[0];
+        this.age = Integer.parseInt(arr[1]);
+    }
+
+    public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -45,8 +51,6 @@ public class Actor {
     }
 
     public String toString() {
-        return "Actor{name = " + name + ", age = " + age + "}";
+        return "Student{name = " + name + ", age = " + age + "}";
     }
-
-
 }
