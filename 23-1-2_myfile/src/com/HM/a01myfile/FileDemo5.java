@@ -12,7 +12,7 @@ public class FileDemo5 {
                 如果删除的是有内容的文件夹，则删除失败
          */
 
-        File f1 = new File("F:\\JavaLearningRoad\\Java_Learning\\23-1-2_myfile\\src\\com\\HM\\test\\aaa");
+        File f1 = new File("F:\\JavaLearningRoad\\Java_Learning\\23-1-2_myfile\\src\\com\\com.HM.note.HM\\test\\aaa");
 
 
         boolean delete = f1.delete();

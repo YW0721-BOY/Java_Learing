@@ -8,7 +8,7 @@ import java.io.IOException;
  */
 public class Test01 {
     public static void main(String[] args) throws IOException {
-        File file = new File("F:\\JavaLearningRoad\\Java_Learning\\23-1-2_myfile\\src\\com\\HM\\test\\a.txt");
+        File file = new File("F:\\JavaLearningRoad\\Java_Learning\\23-1-2_myfile\\src\\com\\com.HM.note.HM\\test\\a.txt");
         boolean newFile = file.createNewFile();
 
         System.out.println(newFile);

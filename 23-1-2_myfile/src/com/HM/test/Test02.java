@@ -9,7 +9,7 @@ import java.io.File;
  */
 public class Test02 {
     public static void main(String[] args) {
-      File file = new File("F:\\JavaLearningRoad\\Java_Learning\\23-1-2_myfile\\src\\com\\HM\\test");
+      File file = new File("F:\\JavaLearningRoad\\Java_Learning\\23-1-2_myfile\\src\\com\\com.HM.note.HM\\test");
       haveAVI(file);
 
     }
