@@ -1,0 +1,7 @@
+name=小A
+age=23
+gender=女
+height=165.9
+hobby=吃饭
+name=波妞
+salary=30000
